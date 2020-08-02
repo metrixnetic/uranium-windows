@@ -266,7 +266,6 @@ Makefile: ..\uranium\quicknanobrowser.pro ..\..\Qt\5.15.0\msvc2019_64\mkspecs\wi
 		..\..\Qt\5.15.0\msvc2019_64\mkspecs\features\qt_config.prf \
 		..\..\Qt\5.15.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf \
 		..\..\Qt\5.15.0\msvc2019_64\mkspecs\features\spec_post.prf \
-		.qmake.stash \
 		..\..\Qt\5.15.0\msvc2019_64\mkspecs\features\exclusive_builds.prf \
 		..\..\Qt\5.15.0\msvc2019_64\mkspecs\common\msvc-version.conf \
 		..\..\Qt\5.15.0\msvc2019_64\mkspecs\features\toolchain.prf \
@@ -304,6 +303,7 @@ Makefile: ..\uranium\quicknanobrowser.pro ..\..\Qt\5.15.0\msvc2019_64\mkspecs\wi
 		..\..\Qt\5.15.0\msvc2019_64\lib\Qt5Positioning.prl \
 		..\..\Qt\5.15.0\msvc2019_64\lib\Qt5Core.prl \
 		..\..\Qt\5.15.0\msvc2019_64\lib\qtmain.prl \
+		.qmake.stash \
 		..\..\Qt\5.15.0\msvc2019_64\mkspecs\features\build_pass.prf \
 		..\uranium\resources.qrc \
 		..\..\Qt\5.15.0\msvc2019_64\lib\Qt5WebEngined.prl \
@@ -501,7 +501,6 @@ Makefile: ..\uranium\quicknanobrowser.pro ..\..\Qt\5.15.0\msvc2019_64\mkspecs\wi
 ..\..\Qt\5.15.0\msvc2019_64\mkspecs\features\qt_config.prf:
 ..\..\Qt\5.15.0\msvc2019_64\mkspecs\win32-msvc\qmake.conf:
 ..\..\Qt\5.15.0\msvc2019_64\mkspecs\features\spec_post.prf:
-.qmake.stash:
 ..\..\Qt\5.15.0\msvc2019_64\mkspecs\features\exclusive_builds.prf:
 ..\..\Qt\5.15.0\msvc2019_64\mkspecs\common\msvc-version.conf:
 ..\..\Qt\5.15.0\msvc2019_64\mkspecs\features\toolchain.prf:
@@ -539,6 +538,7 @@ Makefile: ..\uranium\quicknanobrowser.pro ..\..\Qt\5.15.0\msvc2019_64\mkspecs\wi
 ..\..\Qt\5.15.0\msvc2019_64\lib\Qt5Positioning.prl:
 ..\..\Qt\5.15.0\msvc2019_64\lib\Qt5Core.prl:
 ..\..\Qt\5.15.0\msvc2019_64\lib\qtmain.prl:
+.qmake.stash:
 ..\..\Qt\5.15.0\msvc2019_64\mkspecs\features\build_pass.prf:
 ..\uranium\resources.qrc:
 ..\..\Qt\5.15.0\msvc2019_64\lib\Qt5WebEngined.prl:

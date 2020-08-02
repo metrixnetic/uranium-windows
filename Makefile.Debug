@@ -184,8 +184,8 @@ debug\qrc_resources.cpp: ..\uranium\resources.qrc \
 		..\uranium\menu-24px.svg \
 		..\uranium\add-black-18dp.svg \
 		..\uranium\logo.svg \
-		..\uranium\arrow_back_ios-black-24dp.svg \
-		..\uranium\arrow_forward_ios-black-24dp.svg
+		..\uranium\arrow_back_ios-24px.svg \
+		..\uranium\arrow_forward_ios-24px.svg
 	C:\Qt\5.15.0\msvc2019_64\bin\rcc.exe -name resources ..\uranium\resources.qrc -o debug\qrc_resources.cpp
 
 compiler_moc_predefs_make_all: debug\moc_predefs.h

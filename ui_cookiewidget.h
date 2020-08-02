@@ -37,7 +37,7 @@ public:
     {
         if (CookieWidget->objectName().isEmpty())
             CookieWidget->setObjectName(QString::fromUtf8("CookieWidget"));
-        CookieWidget->resize(300, 71);
+        CookieWidget->resize(300, 88);
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -88,7 +88,6 @@ public:
 
         horizontalLayout->addLayout(verticalLayout);
 
-        horizontalLayout->setStretch(0, 3);
         horizontalLayout->setStretch(1, 1);
 
         retranslateUi(CookieWidget);
